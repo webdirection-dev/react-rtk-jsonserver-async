@@ -1,25 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+import {FilterTodo} from './features/Filters/Filter';
+import {NewTodo} from './features/Todos/NewTodo'
+import {TodoList} from './features/Todos/TodoList'
+import {ResetApp} from './features/Reset/ResetApp';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+export default function App() {
+    return (
+        <div className="App">
+            <h1>Hello Redux Todo</h1>
+            <NewTodo />
+            <FilterTodo />
+            <TodoList />
+            <ResetApp />
+        </div>
+    );
 }
-
-export default App;
