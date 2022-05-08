@@ -3,7 +3,7 @@
     {
       "id": 1,
       "title": "Learn Toolkit",
-      "completed": false
+      "completed": true
     },
     {
       "id": 2,
@@ -18,7 +18,7 @@
     {
       "id": 4,
       "title": "Learn Redux",
-      "completed": false
+      "completed": true
     }
   ]
 }
